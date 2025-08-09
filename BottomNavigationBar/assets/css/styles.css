@@ -47,6 +47,12 @@
     }
 }
 
+@media screen and (min-width: 767px) {
+    main {
+    padding-top: calc(var(--header-height) + 1.5rem);
+}
+}
+
 /*===== BASE =====*/
 
 * {
@@ -214,3 +220,4 @@ img {
         font-size: var(--normal-font-size);
     }
 }
+
